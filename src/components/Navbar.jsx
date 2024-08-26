@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav>
       <ul>
         {navigation.map((item) => (
-          <li>
+          <li key={item.id}>
             <a href={item.url} key={item.id}>
               {item.title}
             </a>
