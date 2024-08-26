@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Footer, Topbar } from "./index";
+import { Header, Footer, Topbar, Hero } from "./index";
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
       <Topbar />
       <div className="header-hero-wrapper">
         <Header />
+        <Hero />
       </div>
     </div>
   );

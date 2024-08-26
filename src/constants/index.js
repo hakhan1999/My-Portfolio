@@ -44,3 +44,30 @@ export const navigation = [
         url: "#contact",
     },
 ];
+
+export const skillsLogo = [
+    {
+        id: '0',
+        url: './src/assets/skills-logo-1.svg'
+    },
+    {
+        id: '1',
+        url: './src/assets/skills-logo-2.svg'
+    },
+    {
+        id: '2',
+        url: './src/assets/skills-logo-3.svg'
+    },
+    {
+        id: '3',
+        url: './src/assets/skills-logo-4.svg'
+    },
+    {
+        id: '4',
+        url: './src/assets/skills-logo-5.png'
+    },
+    {
+        id: '5',
+        url: './src/assets/skills-logo-6.svg'
+    },
+]
