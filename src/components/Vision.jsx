@@ -1,32 +1,27 @@
 import React from "react";
 import Button from "./Button";
+import { vision } from "../constants";
 
 const Vision = () => {
   return (
     <div className="vision-sec section-padding">
       <div className="inner">
         <div className="left">
-          <h2 className="dot-heading">Our Vision</h2>
-          <h2 className="heading">The no-code revolution</h2>
-          <p className="description">
-            The digital world is changing. Brands need to be fast, creative, and
-            flexible. That’s where no-code comes in: a cutting-edge movement
-            which allows you to design and create digital products without
-            needing programming know-how. Meaning brands can move faster, build
-            smarter, and scale more, by coding less.
-          </p>
+          <h2 className="dot-heading">{vision[0].subHeading}</h2>
+          <h2 className="heading">{vision[0].heading}</h2>
+          <p className="description">{vision[0].description}</p>
           <Button
-            href="#"
-            text="More about no-code"
+            href={vision[0].buttonURL}
+            text={vision[0].buttontext}
             textBgColor="var(--purple)"
             arrowBgColor="var(--purple)"
-            icon="./src/assets/plus.svg"
+            icon={vision[0].buttonIconURL}
             width="1.5rem"
           />
         </div>
         <div className="right">
           <div className="image">
-            <img src="./src/assets/skills-icon.png" alt="Skills Icon" />
+            <img src={vision[0].visionImageURL} alt="Skills Icon" />
           </div>
         </div>
       </div>

@@ -5,5 +5,6 @@ import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Topbar from "./components/Topbar";
 import Vision from "./components/Vision";
+import WhyUs from "./components/WhyUs";
 
-export { Header, Footer, Navbar, Topbar, Hero, Services, Vision };
+export { Header, Footer, Navbar, Topbar, Hero, Services, Vision, WhyUs };

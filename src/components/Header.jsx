@@ -1,18 +1,18 @@
-import React from 'react'
-import Navbar from './Navbar'
-
+import React from "react";
+import Navbar from "./Navbar";
+import { header } from "../constants";
 
 const Header = () => {
   return (
     <header>
       <div className="header-inner">
         <div className="logo">
-            <img src="./src/assets/logo.svg" alt="Logo" />
+          <img src={header[0].logoURL} alt="Logo" />
         </div>
-        <Navbar/>
+        <Navbar />
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

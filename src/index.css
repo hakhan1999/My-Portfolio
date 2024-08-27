@@ -176,6 +176,7 @@ body {
 .single-marquee p.desc {
   opacity: 0.6;
   font-size: 1.125rem;
+  color: var(--off-white);
 }
 
 .single-marquee p.title {
@@ -334,7 +335,8 @@ h2.hero-heading {
 .hero p.description {
   font-size: 1.125rem;
   width: 26.625rem;
-  opacity: 0.8;
+  color: var(--off-white);
+  opacity: 0.6;
 }
 
 /* Button Component  */
@@ -524,7 +526,8 @@ a.button:hover .arrow {
   width: 22.813rem;
   font-size: 1.125rem;
   line-height: 1.469rem;
-  color: var(--grey);
+  color: var(--off-white);
+  opacity: 0.6;
 }
 
 .card .bottom .arrow-icon {
@@ -609,4 +612,51 @@ a.button:hover .arrow {
   color: var(--slight-black);
   font-size: 1.125rem;
   margin-bottom: 1rem;
+}
+
+/* Why Us Sec  */
+
+.why-us {
+  padding: 6.25rem 8.25rem;
+}
+
+.why-us .inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1.563rem;
+}
+
+.why-us .inner .top .heading {
+  font-size: 4.2rem;
+  font-weight: 300;
+  width: 28rem;
+}
+
+.why-us .inner .bottom .why-us-card {
+  padding: 2rem;
+  width: 49%;
+  background: linear-gradient(103.23deg, rgba(214, 163, 228, 0) 0%, rgba(214, 163, 228, 0.07) 100%);
+  border-right: 0.063rem solid var(--text-grey);
+  border-radius: 2rem;
+}
+
+.why-us .inner .bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.563rem;
+}
+
+.why-us .inner .bottom .why-us-card h2 {
+  font-weight: 300;
+  font-size: 2.1rem;
+  margin-bottom: 0.518rem;
+  color: var(--off-white);
+}
+
+.why-us .inner .bottom .why-us-card p {
+  color: var(--off-white);
+  font-size: 1.125rem;
+  width: 70%;
+  opacity: 0.6;
 }

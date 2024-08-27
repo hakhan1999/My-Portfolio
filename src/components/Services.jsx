@@ -1,24 +1,21 @@
 import React from "react";
-import { cardBox } from "../constants";
+import { cardBox, services } from "../constants";
 
 const Services = () => {
   return (
     <div className="services ">
       <div className="top-div">
         <div className="left">
-            <div className="left-bg"></div>
-            <div className="small"></div>
+          <div className="left-bg"></div>
+          <div className="small"></div>
         </div>
         <div className="right"></div>
       </div>
       <div className="absolute-heading">
-        <h2 className="dot-heading">Services</h2>
+        <h2 className="dot-heading">{services[0].subHeading}</h2>
       </div>
       <div className="inner section-padding">
-        <h2 className="main-heading">
-          We create without the need for coding to give ambitious brands the
-          upper hand
-        </h2>
+        <h2 className="main-heading">{services[0].heading}</h2>
         <div className="card-row">
           {cardBox.map((item) => (
             <div key={item.id} className="card">
@@ -29,7 +26,7 @@ const Services = () => {
               <div className="bottom">
                 <p>{item.description}</p>
                 <div className="arrow-icon">
-                  <img src="./src/assets/services-arrow.svg" alt="Arrow Icon" />
+                  <img src={services[0].arrowIconURL} alt="Arrow Icon" />
                 </div>
               </div>
             </div>
