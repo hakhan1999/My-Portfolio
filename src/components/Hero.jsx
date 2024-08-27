@@ -25,6 +25,7 @@ const Hero = () => {
             text="Learn more"
             arrowBgColor="#fff"
             textBgColor="#fff"
+            icon="./src/assets/arrow.svg"
           />
         </div>
       </div>

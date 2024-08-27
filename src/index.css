@@ -396,3 +396,217 @@ a.button:hover .arrow {
 .skills-logo .skill img {
   width: 100%;
 }
+
+/* Services  */
+
+.top-div .left {
+  width: 60%;
+  position: relative;
+  border-top-right-radius: 2rem;
+}
+
+.top-div .right {
+  width: 40%;
+  background: var(--slight-black);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.top-div {
+  display: flex;
+  height: 9rem;
+}
+
+.top-div .left .left-bg {
+  width: 100%;
+  height: 100%;
+  background: var(--light-black);
+  position: absolute;
+  z-index: 1;
+  border-top-right-radius: 2rem;
+}
+
+.top-div .left .small {
+  width: 3rem;
+  height: 3rem;
+  background: var(--slight-black);
+  position: absolute;
+  right: 0;
+  z-index: 0;
+  top: 0rem;
+}
+
+.services {
+  position: relative;
+  padding-bottom: 6.25rem;
+}
+
+.absolute-heading {
+  position: absolute;
+  top: -2.688rem;
+  z-index: 4;
+  background: var(--light-black);
+  padding: 0.75rem 1rem;
+  left: 5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.services .inner .main-heading {
+  font-weight: 300;
+  font-size: 3.15rem;
+  width: 48.25rem;
+  line-height: 3.463rem;
+  margin-bottom: 1.574rem;
+}
+
+.services .inner {
+  margin-top: -3rem;
+  position: relative;
+  z-index: 3;
+}
+
+.card-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-row .top img {
+  width: 0rem;
+  transition: all 0.4s ease-out;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 33.2rem;
+  padding: 2rem;
+  border-right: 0.063rem solid var(--text-grey);
+  border-radius: 2rem;
+  transition: all 0.4s ease-out;
+  position: relative;
+}
+
+.card:before {
+  background-image: linear-gradient(135deg, #d6a3e400, #d6a3e412);
+  transition: all 0.4s ease-out;
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 2rem;
+  opacity: 0;
+}
+
+.card:hover::before {
+  opacity: 1;
+  transition: all 0.4s ease-out;
+}
+
+.card:hover .bottom .arrow-icon img {
+  transform: rotate(180deg);
+  transition: all 0.4s ease-out;
+}
+
+.card .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .top h2 {
+  font-size: 2.625rem;
+  font-weight: 300;
+}
+
+.card .bottom p {
+  width: 22.813rem;
+  font-size: 1.125rem;
+  line-height: 1.469rem;
+  color: var(--grey);
+}
+
+.card .bottom .arrow-icon {
+  width: 3.375rem;
+  background: linear-gradient(315deg, rgba(214, 163, 228, 0.16) 0%, rgba(214, 163, 228, 0) 100%);
+  border-radius: 100%;
+  height: 3.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .bottom .arrow-icon img {
+  width: 1.563rem;
+  transition: all 0.4s ease-out;
+}
+
+.card .top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.card:hover .top img {
+  width: 4rem;
+  transition: all 0.4s ease-out;
+  margin-right: 1rem;
+}
+
+/* Vision Sec  */
+
+.vision-sec .inner {
+  padding: 6.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vision-sec {
+  background: var(--white);
+  border-radius: 2rem;
+  margin-bottom: 6.25rem;
+}
+
+.vision-sec .inner .left {
+  width: 37.75rem;
+}
+
+.vision-sec .inner .right {
+  width: 42rem;
+  position: relative;
+  height: 29.375rem;
+}
+
+.vision-sec .inner .right .image {
+  width: 42rem;
+  position: absolute;
+  right: -10.25rem;
+  bottom: -6.25rem;
+  height: 100%;
+}
+
+.vision-sec .inner .right .image img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.vision-sec .inner .left .heading {
+  color: var(--slight-black);
+  font-weight: 300;
+  font-size: 4.2rem;
+  line-height: 4.2rem;
+  margin: 1rem 0;
+}
+
+.vision-sec .inner .left .dot-heading {
+  color: var(--slight-black);
+}
+
+.vision-sec .inner .left .description {
+  color: var(--slight-black);
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
