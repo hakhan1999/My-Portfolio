@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import { hero, skillsLogo } from "../constants";
+import { hero, skillsLogo } from "../data";
 
 const Hero = () => {
   return (

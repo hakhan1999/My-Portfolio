@@ -617,7 +617,7 @@ a.button:hover .arrow {
 /* Why Us Sec  */
 
 .why-us {
-  padding: 6.25rem 8.25rem;
+  padding: 0rem 8.25rem 6.25rem;
 }
 
 .why-us .inner {
@@ -659,4 +659,132 @@ a.button:hover .arrow {
   font-size: 1.125rem;
   width: 70%;
   opacity: 0.6;
+}
+
+/* Carousel CSS  */
+
+.projects {
+  position: relative;
+}
+
+.projects .absolute-heading {
+  background: var(--slight-black);
+}
+
+.projects .inner {
+  padding-top: 4.813rem;
+  padding-left: 4.2rem;
+  padding-right: 4.2rem;
+  padding-bottom: 4.25rem;
+  background: var(--slight-black);
+  border-radius: 2.1rem 2.1rem 0 2.1rem
+}
+
+.carousel-card a {
+  cursor: pointer;
+}
+
+.carousel-card .carousel-img {
+  width: 100%;
+  height: 40.25rem;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.carousel-card .carousel-img:hover img {
+  transform: scale(1.05);
+  transition: all 0.4s ease-out;
+}
+
+.carousel-card .carousel-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.4s ease-out;
+}
+
+.carousel-content h2 {
+  color: var(--off-white);
+  font-weight: 300;
+  margin-top: 1.521rem;
+  font-size: 1.575rem;
+  line-height: 1.733rem;
+  width: 90%;
+}
+
+.carousel-content p {
+  color: var(--off-white);
+  opacity: 0.6;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.projects .slick-slide>div {
+  margin-left: 1rem;
+}
+
+.projects .slick-slide.slick-current>div {
+  margin-left: 0;
+}
+
+.projects .slick-next:before {
+  content: url(./assets/arrow-next.svg);
+  line-height: inherit;
+}
+
+.projects .slick-prev:before {
+  content: url(./assets/arrow-next.svg);
+  line-height: inherit;
+}
+
+.projects .slick-arrow.slick-prev {
+  transform: rotate(180deg);
+}
+
+.slick-arrow {
+  background: var(--light-black);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+  transition: all 0.4s ease-out;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  right: 0;
+  top: auto;
+  bottom: -4.813rem;
+  transform: none;
+}
+
+.slick-arrow:hover,
+.slick-arrow:focus {
+  background: var(--dark-grey);
+  transition: all 0.4s ease-out;
+}
+
+.slick-arrow::before {
+  width: 1.125rem;
+  display: block;
+}
+
+.projects .slick-prev {
+  left: auto;
+  right: 3.5rem;
+}
+
+.projects .slick-next {
+  right: 0;
+}
+
+.projects .top-div .right {
+  width: 15%;
+}
+
+.projects .top-div .left {
+  width: 85%;
+}
+
+.projects .top-div {
+  height: 7rem;
 }

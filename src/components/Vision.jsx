@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import { vision } from "../constants";
+import { vision } from "../data";
 
 const Vision = () => {
   return (

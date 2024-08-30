@@ -1,5 +1,5 @@
 import React from "react";
-import { navigation } from "../constants";
+import { navigation } from "../data";
 
 const Navbar = () => {
   return (

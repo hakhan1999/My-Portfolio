@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { header } from "../constants";
+import { header } from "../data";
 
 const Header = () => {
   return (

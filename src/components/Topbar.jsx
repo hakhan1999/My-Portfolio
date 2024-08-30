@@ -1,5 +1,5 @@
 import React from "react";
-import { topbar } from "../constants";
+import { topbar } from "../data";
 import Marquee from "react-fast-marquee";
 
 const Topbar = () => {

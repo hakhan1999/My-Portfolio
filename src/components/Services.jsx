@@ -1,5 +1,5 @@
 import React from "react";
-import { cardBox, services } from "../constants";
+import { cardBox, services } from "../data";
 
 const Services = () => {
   return (

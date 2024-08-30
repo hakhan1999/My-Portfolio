@@ -1,5 +1,14 @@
 import React from "react";
-import { Header, Footer, Topbar, Hero, Services, Vision, WhyUs } from "./index";
+import {
+  Header,
+  Footer,
+  Topbar,
+  Hero,
+  Services,
+  Vision,
+  WhyUs,
+  Projects,
+} from "./index";
 
 const App = () => {
   return (
@@ -10,8 +19,9 @@ const App = () => {
         <Hero />
       </div>
       <Services />
-      <Vision/>
-      <WhyUs/>
+      <Vision />
+      <Projects />
+      <WhyUs />
     </div>
   );
 };

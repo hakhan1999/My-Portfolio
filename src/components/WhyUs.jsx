@@ -1,5 +1,5 @@
 import React from "react";
-import { whyUsCard, whyUs } from "../constants";
+import { whyUsCard, whyUs } from "../data";
 
 const WhyUs = () => {
   return (
