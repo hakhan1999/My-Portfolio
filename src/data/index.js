@@ -188,60 +188,105 @@ export const subHeading = [
 
 export const carousel = [
     {
-        id:'1',
+        id: '1',
         imgURL: './src/assets/project-1.webp',
         title: 'A new era of education at the Dutch Creative Technology Academy',
         description: 'Reducations',
         URL: '#',
     },
     {
-        id:'2',
+        id: '2',
         imgURL: './src/assets/project-2.webp',
         title: 'Let’s inspire the future with a free online academy',
         description: 'Skybox x Samsung',
         URL: '#',
     },
     {
-        id:'3',
+        id: '3',
         imgURL: './src/assets/project-3.webp',
         title: 'Building the world’s most advanced no-code job platform',
         description: 'Vacature Via',
         URL: '#',
     },
     {
-        id:'4',
+        id: '4',
         imgURL: './src/assets/project-4.webp',
         title: 'A plant-based experience that looks as good as it tastes ',
         description: 'Snack with Benefits',
         URL: '#',
     },
     {
-        id:'5',
+        id: '5',
         imgURL: './src/assets/project-5.webp',
         title: 'Reaching the next gen like no other',
         description: 'For You Agency',
         URL: '#',
     },
     {
-        id:'6',
+        id: '6',
         imgURL: './src/assets/project-6.webp',
         title: 'Taking document management international in just 2 weeks',
         description: 'Caya',
         URL: '#',
     },
     {
-        id:'7',
+        id: '7',
         imgURL: './src/assets/project-7.webp',
         title: 'A new scalable, digital footprint for The Avocado Show',
         description: 'The Avocado Show',
         URL: '#',
     },
     {
-        id:'8',
+        id: '8',
         imgURL: './src/assets/project-8.webp',
         title: 'In just one month from scratch to a creative platform',
         description: 'Skybox',
         URL: '#',
     },
 
+]
+
+// Marquee Skills 
+
+export const skills = [
+    {
+        id: 1,
+        imageURL: 'src/assets/awwards-logo.svg',
+        description: 'Winner Best Talent DIA Awards 2023 - Erwin Luijendijk',
+    },
+    {
+        id: 2,
+        imageURL: 'src/assets/awwards-logo.svg',
+        description: 'Winner Best Talent DIA Awards 2023 - Erwin Luijendijk',
+    },
+    {
+        id: 3,
+        imageURL: 'src/assets/awwards-logo.svg',
+        description: 'Winner Best Talent DIA Awards 2023 - Erwin Luijendijk',
+    },
+    {
+        id: 4,
+        imageURL: 'src/assets/awwards-logo.svg',
+        description: 'Winner Best Talent DIA Awards 2023 - Erwin Luijendijk',
+    },
+    {
+        id: 5,
+        imageURL: 'src/assets/awwards-logo.svg',
+        description: 'Winner Best Talent DIA Awards 2023 - Erwin Luijendijk',
+    },
+    {
+        id: 6,
+        imageURL: 'src/assets/awwards-logo.svg',
+        description: 'Winner Best Talent DIA Awards 2023 - Erwin Luijendijk',
+    },
+    {
+        id: 7,
+        imageURL: 'src/assets/awwards-logo.svg',
+        description: 'Winner Best Talent DIA Awards 2023 - Erwin Luijendijk',
+    },
+    {
+        id: 8,
+        imageURL: 'src/assets/awwards-logo.svg',
+        description: 'Winner Best Talent DIA Awards 2023 - Erwin Luijendijk',
+    },
 ]

@@ -119,7 +119,7 @@ body {
   margin-left: 1rem;
 }
 
-.topbar .dot-heading:before {
+.dot-heading.orange:before {
   background: var(--orange);
 }
 
@@ -345,6 +345,7 @@ a.button {
   display: flex;
   align-items: center;
   cursor: pointer;
+  width: fit-content;
 }
 
 .button .arrow {
@@ -374,12 +375,6 @@ a.button {
 a.button:hover .arrow {
   transform: rotate(-45deg);
   transition: all 0.4s ease-out;
-}
-
-.bottom-image img {
-  width: 100%;
-  margin-top: 5rem;
-  border-radius: 2rem;
 }
 
 /* Skills Logo Row  */
@@ -787,4 +782,96 @@ a.button:hover .arrow {
 
 .projects .top-div {
   height: 7rem;
+}
+
+/* Info Section  */
+
+.info .top-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info .top-info .image-div {
+  width: 37.75rem;
+  height: 40rem;
+}
+
+.info .top-info .image-div .wrapper {
+  position: relative;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 6.25rem;
+}
+
+.info .top-info .info-div {
+  width: 50.399rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.info .top-info .image-div .shape {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.info .top-info .image-div .image {
+  position: absolute;
+  width: 30rem;
+  left: 16rem;
+  top: 10rem;
+  z-index: 2;
+}
+
+.info .top-info .image-div .name-div {
+  position: absolute;
+  bottom: 8rem;
+  left: 1.5rem;
+  width: 10rem;
+}
+
+.info .top-info .info-div .founder-heading {
+  font-weight: 300;
+  font-size: 3.125rem;
+  line-height: 3.438rem;
+  width: 80%;
+}
+
+.info .top-info .image-div .name-div h2 {
+  font-size: 1.563rem;
+  font-weight: 300;
+  margin-bottom: .4rem;
+}
+
+.info .top-info .image-div .name-div p {
+  opacity: 0.6;
+}
+
+.skills-box {
+  background-image: linear-gradient(135deg, #d6a3e400, #d6a3e412);
+  padding: 2rem 3rem 2rem 2rem;
+  border-radius: 2rem;
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottom-marquee {
+  margin-top: 6.25rem;
+}
+
+.skills-box img {
+  width: 10rem;
+}
+
+.skills-box p {
+  opacity: 0.6;
 }

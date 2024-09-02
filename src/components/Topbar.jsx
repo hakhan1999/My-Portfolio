@@ -7,7 +7,7 @@ const Topbar = () => {
     <div className="topbar">
       <div className="inner">
         <div className="heading">
-          <h2 className="dot-heading">{topbar[0].heading}</h2>
+          <h2 className="dot-heading orange">{topbar[0].heading}</h2>
         </div>
         <Marquee autoFill className="marquee">
           {topbar.map((item) => (

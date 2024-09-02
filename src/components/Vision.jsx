@@ -7,7 +7,7 @@ const Vision = () => {
     <div className="vision-sec section-padding">
       <div className="inner">
         <div className="left">
-          <h2 className="dot-heading">{vision[0].subHeading}</h2>
+          <h2 className="dot-heading orange">{vision[0].subHeading}</h2>
           <h2 className="heading">{vision[0].heading}</h2>
           <p className="description">{vision[0].description}</p>
           <Button

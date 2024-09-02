@@ -13,7 +13,7 @@ const Projects = () => {
     autoplay: true,
     autoplaySpeed: 5000
   };
-  return (
+  return ( 
     <div className="projects">
       <div className="inner">
         <div className="absolute-heading">

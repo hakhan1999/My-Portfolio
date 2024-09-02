@@ -8,6 +8,7 @@ import {
   Vision,
   WhyUs,
   Projects,
+  Info,
 } from "./index";
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
       <Vision />
       <Projects />
       <WhyUs />
+      <Info />
     </div>
   );
 };
