@@ -300,7 +300,24 @@ export const info = [
         designation: 'Founder & CTO',
         subHeading: 'Contact',
         heading: 'Want to know more about our way of working?',
-        buttonText:'Contact Me',
-        buttonIconURL:'./src/assets/plus.svg',
+        buttonText: 'Contact Me',
+        buttonIconURL: './src/assets/plus.svg',
+    }
+]
+
+// Contact Section 
+
+export const contact = [
+    {
+        subHeading: 'No-code Community',
+        heading: 'Join 1100+ Dutch speaking no-code enthusiasts',
+        description: 'Join the largest Dutch no-code community for digital creators, marketers and no-code enthusiasts. Get insight into the latest trends, news and updates. And get exclusive online sessions by experts sharing their knowledge and experience in the field of no-code.',
+        buttonText: 'Join the community',
+        buttonIconURL: './src/assets/plus.svg',
+        namePlaceholder: 'Name',
+        emailPlacegholder: 'Email',
+        phonePlaceholder: 'Phone',
+        messagePlaceholder: 'Message',
+        submitPlaceholder: 'Send',
     }
 ]

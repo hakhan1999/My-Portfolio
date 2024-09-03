@@ -348,7 +348,7 @@ a.button {
   width: fit-content;
 }
 
-.button .arrow {
+.arrow {
   height: 3.125rem;
   background: var(--white);
   display: flex;
@@ -359,7 +359,7 @@ a.button {
   transition: all 0.4s ease-out;
 }
 
-.button .arrow img {
+.arrow img {
   width: 0.938rem;
 }
 
@@ -874,4 +874,109 @@ a.button:hover .arrow {
 
 .skills-box p {
   opacity: 0.6;
+}
+
+/* Contact Section  */
+
+.contact {
+  padding: 0rem 8.25rem 6.25rem;
+}
+
+.contact .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact .inner .col-1 {
+  width: 29.399rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact .inner .col-1 .heading {
+  font-size: 3.15rem;
+  font-weight: 300;
+  line-height: 3.465rem;
+}
+
+.contact .inner .col-1 p {
+  font-size: 1.125rem;
+  opacity: 0.6;
+}
+
+.contact .inner .col-2 {
+  width: 40.399rem;
+}
+
+.contact .inner .col-2 form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact .inner .col-2 form input {
+  height: 3.413rem;
+  border-radius: 0.913rem;
+  background: linear-gradient(135deg, #d6a3e400, #d6a3e412);
+  outline: none;
+  border: 0.063rem solid var(--text-grey);
+  color: var(--off-white);
+  transition: all 0.4s ease-out;
+  font-size: 1.125rem;
+  padding-left: 1rem;
+}
+
+.contact .inner .col-2 form textarea {
+  height: 10rem;
+  border-radius: 0.913rem;
+  background: linear-gradient(135deg, #d6a3e400, #d6a3e412);
+  outline: none;
+  border: 0.063rem solid var(--text-grey);
+  color: var(--off-white);
+  transition: all 0.4s ease-out;
+  font-size: 1.125rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.contact .inner .col-2 form input::placeholder {
+  font-size: 1.125rem;
+  font-family: 'Haffer SQ XH';
+  color: var(--off-white);
+  opacity: 0.6;
+}
+
+.contact .inner .col-2 form textarea::placeholder {
+  font-size: 1.125rem;
+  font-family: 'Haffer SQ XH';
+  color: var(--off-white);
+  opacity: 0.6;
+}
+
+.contact .inner .col-2 form input:hover {
+  transition: all 0.4s ease-out;
+  border: 0.063rem solid var(--purple);
+}
+
+.contact .inner .col-2 form textarea:hover {
+  transition: all 0.4s ease-out;
+  border: 0.063rem solid var(--purple);
+}
+
+form .submit {
+  display: flex;
+  align-items: center;
+}
+
+.contact .inner .col-2 form .submit input {
+  cursor: pointer;
+  padding: 1rem;
+  background: var(--purple);
+  border-radius: 1rem;
+  color: var(--slight-black);
+  font-family: 'Haffer SQ XH';
+  font-size: 1.125rem !important;
+  border: none;
 }

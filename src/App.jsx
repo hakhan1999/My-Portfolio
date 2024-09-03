@@ -9,6 +9,7 @@ import {
   WhyUs,
   Projects,
   Info,
+  Contact,
 } from "./index";
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       <Projects />
       <WhyUs />
       <Info />
+      <Contact />
     </div>
   );
 };

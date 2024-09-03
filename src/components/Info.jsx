@@ -3,7 +3,7 @@ import Button from "./Button";
 import { info, skills } from "../data";
 import Marquee from "react-fast-marquee";
 
-export const Info = () => {
+const Info = () => {
   return (
     <div className="info">
       <div className="top-info section-padding">
@@ -63,3 +63,5 @@ export const Info = () => {
     </div>
   );
 };
+
+export default Info;
