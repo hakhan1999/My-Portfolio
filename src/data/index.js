@@ -290,3 +290,17 @@ export const skills = [
         description: 'Winner Best Talent DIA Awards 2023 - Erwin Luijendijk',
     },
 ]
+
+// Info Section 
+
+export const info = [
+    {
+        shapeURL: 'src/assets/founder.webp',
+        name: 'Erwin Luijendijk',
+        designation: 'Founder & CTO',
+        subHeading: 'Contact',
+        heading: 'Want to know more about our way of working?',
+        buttonText:'Contact Me',
+        buttonIconURL:'./src/assets/plus.svg',
+    }
+]

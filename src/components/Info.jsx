@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import { skills } from "../data";
+import { info, skills } from "../data";
 import Marquee from "react-fast-marquee";
 
 export const Info = () => {
@@ -21,7 +21,7 @@ export const Info = () => {
                 </clipPath>
                 <image
                   clipPath="url(#cta-letter)"
-                  xlinkHref="src/assets/founder.webp"
+                  xlinkHref={info[0].shapeURL}
                   alt="Founder Image"
                   width="100%"
                 ></image>
@@ -31,23 +31,21 @@ export const Info = () => {
             <div className="shape">
               <img src="src/assets/shape.svg" alt="Shape" />
               <div className="name-div">
-                <h2>Erwin Luijendijk</h2>
-                <p>Founder & CTO</p>
+                <h2>{info[0].name}</h2>
+                <p>{info[0].designation}</p>
               </div>
             </div>
           </div>
         </div>
         <div className="info-div">
-          <h2 className="dot-heading">Contact</h2>
-          <h2 className="founder-heading">
-            Want to know more about our way of working?
-          </h2>
+          <h2 className="dot-heading">{info[0].subHeading}</h2>
+          <h2 className="founder-heading">{info[0].heading}</h2>
           <Button
             href="#"
-            text="Contact Me"
+            text={info[0].buttonText}
             textBgColor="var(--purple)"
             arrowBgColor="var(--purple)"
-            icon="./src/assets/plus.svg"
+            icon={info[0].buttonIconURL}
             width="1.5rem"
           />
         </div>
