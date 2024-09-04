@@ -321,3 +321,29 @@ export const contact = [
         submitPlaceholder: 'Send',
     }
 ]
+
+// Testimonials Section 
+
+export const testimonials = [
+    {
+        subHeading: 'Testimonials',
+        heading: 'Don’t just take our word for it',
+        description: 'Read what our clients have to say',
+        testimonial1Description: '“We were looking for an agency that would help design and build the job platform of the future with us. Cut the Code was able to perfectly translate our needs into a digital experience that seamlessly aligns with the modern employer and jobseeker.”',
+        testimonial1ImageURL: 'src/assets/testimonial-1.jpg',
+        testimonial1Name: 'Nadir Mea',
+        testimonial1Designation: 'CEO and co-founder of Vacature Via',
+        testimonial2Description: '"The team quickly understood our business requirements and were proactive and flexible with our ongoing support and developments. You can definitely trust them for complex project requirements as they are top-notch in their field and we can only recommend it."',
+        testimonial2ImageURL: 'src/assets/testimonial-2.jpg',
+        testimonial2Name: 'Arnaud Barbezat',
+        testimonial2Designation: 'International Marketing Manager Caya',
+        testimonial3Description: '"I see no-code as a strong fit with the biggest trend in the world: convenience. Saves time, money, knowledge, hassle and experience requirements. This is only going to get bigger. It is the baseline for future services and products."',
+        testimonial3ImageURL: 'src/assets/testimonial-3.jpg',
+        testimonial3Name: 'Ron Simpson',
+        testimonial3Designation: 'Founder The Avocado Show & Skybox',
+        rSymbol: 'src/assets/r-symbol.svg',
+        cSymbol: 'src/assets/c-symbol.svg',
+        xSymbol: 'src/assets/x-symbol.svg',
+        tSymbol: 'src/assets/t-symbol.svg',
+    }
+]

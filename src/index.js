@@ -6,8 +6,10 @@ import Info from "./components/Info";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Services from "./components/Services";
+import Testimonials from "./components/Testimonials";
 import Topbar from "./components/Topbar";
 import Vision from "./components/Vision";
 import WhyUs from "./components/WhyUs";
 
-export { Header, Footer, Navbar, Topbar, Hero, Services, Vision, WhyUs, Projects, Info, Contact };
+
+export { Header, Footer, Navbar, Topbar, Hero, Services, Vision, WhyUs, Projects, Info, Contact, Testimonials };

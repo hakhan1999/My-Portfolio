@@ -10,6 +10,7 @@ import {
   Projects,
   Info,
   Contact,
+  Testimonials,
 } from "./index";
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
       <Projects />
       <WhyUs />
       <Info />
+      <Testimonials />
       <Contact />
     </div>
   );
