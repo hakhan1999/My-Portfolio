@@ -1,5 +1,6 @@
 import React from "react";
 import { navigation } from "../data";
+import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   return (
@@ -13,6 +14,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
+      <ThemeToggle />
     </nav>
   );
 };

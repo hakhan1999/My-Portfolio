@@ -1,4 +1,4 @@
-/* Color Variables  */
+/* Dark Mode (Default) */
 :root {
   --light-black: #222;
   --off-white: #f3efef;
@@ -13,6 +13,64 @@
   --light-purple: #e3b2f1;
   --black: black;
   --accessible-components-dark-grey: #9b9b9b;
+  --gradient-color: linear-gradient(135deg, #d6a3e400, #d6a3e412);
+}
+
+/* Light Mode */
+[data-theme="light"] {
+  --light-black: #f3f3f3;
+  --off-white: #222;
+  --orange: #ff7a5a;
+  --slight-black: #eaeaea;
+  --purple: #b393d6;
+  --text-grey: #333;
+  --white: black;
+  --dark-grey: #666;
+  --green: #a3d9a3;
+  --grey: #222;
+  --light-purple: #d3a2f1;
+  --black: white;
+  --accessible-components-dark-grey: #7a7a7a;
+  --gradient-color: linear-gradient(135deg, #e3b2f1, #e3b2f126);
+}
+
+:root,
+[data-theme="light"] {
+  --transition-duration: 0.4s;
+}
+
+button,
+.toggle-theme img {
+  transition: filter var(--transition-duration);
+}
+
+[data-theme='light'] .button .text,
+[data-theme='light'] .contact .inner .col-2 form .submit input {
+  color: #222;
+}
+
+[data-theme='light'] .slick-arrow,
+[data-theme='light'] .card .bottom .arrow-icon {
+  background: #222;
+}
+
+[data-theme='light'] .card,
+[data-theme='light'] .why-us .inner .bottom .why-us-card,
+[data-theme='light'] .skills-box {
+  border: 0.063rem solid #222;
+}
+
+[data-theme='light'] .info .top-info .image-div .shape img,
+[data-theme='light'] .testimonials .inner .col-2 .testimonials-wrapper .col .shape img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(3374%) hue-rotate(332deg) brightness(113%) contrast(101%);
+}
+
+[data-theme='light'] .skills-box img {
+  filter: brightness(0) saturate(100%) invert(14%) sepia(6%) saturate(20%) hue-rotate(48deg) brightness(97%) contrast(101%);
+}
+
+[data-theme='light'] .footer .inner .col-2 .scroll-top {
+  background: #fff;
 }
 
 /* Scrollbar  */
@@ -89,6 +147,7 @@ html {
   font-size: 0.8333333333vw;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  transition: background-color var(--transition-duration), color var(--transition-duration);
 }
 
 @media (max-width:991px) {
@@ -106,6 +165,7 @@ html {
 body {
   background-color: var(--light-black);
   color: var(--off-white);
+  transition: background-color var(--transition-duration), color var(--transition-duration);
 }
 
 .padding-global {
@@ -996,6 +1056,7 @@ form .submit {
   color: var(--slight-black);
   height: 41.988rem;
   margin-bottom: 6.25rem;
+  overflow: hidden;
 }
 
 .testimonials .inner {
@@ -1146,4 +1207,23 @@ form .submit {
 .footer .inner .col-2 .scroll-top:hover img {
   transform: rotate(540deg);
   transition: all 0.4s ease-out;
+}
+
+/* Theme Toggle  */
+
+header .header-inner nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.toggle-theme .inner .button {
+  width: 2rem;
+  height: 2rem;
+}
+
+.toggle-theme .inner .button img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }

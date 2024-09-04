@@ -140,7 +140,7 @@ export const vision = [
         buttontext: 'More about no-code',
         buttonIconURL: './src/assets/plus.svg',
         buttonURL: '#',
-        visionImageURL: './src/assets/skills-icon.png',
+        visionImageURL: './src/assets/skills-icon.svg',
     }
 ]
 
