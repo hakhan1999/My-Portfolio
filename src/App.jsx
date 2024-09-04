@@ -15,20 +15,23 @@ import {
 
 const App = () => {
   return (
-    <div className="main-wrapper padding-global">
-      <Topbar />
-      <div className="header-hero-wrapper">
-        <Header />
-        <Hero />
+    <>
+      <div className="main-wrapper padding-global">
+        <Topbar />
+        <div className="header-hero-wrapper">
+          <Header />
+          <Hero />
+        </div>
+        <Services />
+        <Vision />
+        <Projects />
+        <WhyUs />
+        <Info />
+        <Testimonials />
+        <Contact />
       </div>
-      <Services />
-      <Vision />
-      <Projects />
-      <WhyUs />
-      <Info />
-      <Testimonials />
-      <Contact />
-    </div>
+      <Footer />
+    </>
   );
 };
 

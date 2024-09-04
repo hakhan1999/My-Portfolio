@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 const Topbar = () => {
   return (
-    <div className="topbar">
+    <div className="topbar" id="scroll-top">
       <div className="inner">
         <div className="heading">
           <h2 className="dot-heading orange">{topbar[0].heading}</h2>

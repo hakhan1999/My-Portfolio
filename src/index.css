@@ -1087,3 +1087,63 @@ form .submit {
   font-size: 1rem;
   opacity: 0.6;
 }
+
+/* Footer  */
+
+.footer {
+  background: var(--purple);
+  padding: 2rem 0;
+}
+
+.footer .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .inner .col {
+  width: 50%;
+}
+
+.footer .inner .col-1 p {
+  font-size: 1.125rem;
+  color: var(--slight-black);
+}
+
+.footer .inner .col-2 p {
+  font-size: 1.125rem;
+  color: var(--slight-black);
+}
+
+.footer .inner .col-2 p span {
+  color: red;
+}
+
+.footer .inner .col-2 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+
+.footer .inner .col-2 .scroll-top {
+  width: 3.5rem;
+  height: 3.5rem;
+  background: var(--off-white);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.footer .inner .col-2 .scroll-top img {
+  width: 1rem;
+  transform: rotate(180deg);
+  transition: all 0.4s ease-out;
+}
+
+.footer .inner .col-2 .scroll-top:hover img {
+  transform: rotate(540deg);
+  transition: all 0.4s ease-out;
+}
