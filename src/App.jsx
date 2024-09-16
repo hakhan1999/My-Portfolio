@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Header,
   Footer,
@@ -12,8 +12,20 @@ import {
   Contact,
   Testimonials,
 } from "./index";
+import Lenis from "lenis";
+import "lenis/dist/lenis.css";
 
 const App = () => {
+  useEffect(() => {
+    const lenis = new Lenis();
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+  });
   return (
     <>
       <div className="main-wrapper padding-global">
